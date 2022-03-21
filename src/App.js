@@ -8,11 +8,9 @@ function App() {
     <div>
       <p>Vous avez cliqué {count} fois</p>
       <button onClick={() => setCount(count + 1)}>
-        Cliquez ici
-      </button>
-      <p>Vous avez cliqué {count} fois</p>
+        incrementer      </button>
       <button onClick={() => setCount(count - 1)}>
-        Cliquez ici
+        decrementer
       </button>
     </div>
   );
